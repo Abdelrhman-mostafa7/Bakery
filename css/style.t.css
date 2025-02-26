@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body{
+    font-family:"Alegreya Sans" ;
+}
+p{
+    font-size: 1.375rem;
+}
+
+.background {
+    background-image: url(../imge/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.background .text h1 {
+    font-family: 'Alegreya';
+    font-size: 4.75rem;
+    font-weight: 400;
+    line-height: 5.6875rem;
+}
+
+.background .text p {
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2.8125rem;
+    width: 80%;
+    margin: auto;
+}
+
+.background .text button {
+    padding: 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(95, 76, 50);
+    border-radius: .625rem;
+}
+
+.background .text .btn1 {
+    transition: all 1s;
+}
+
+.background .text .btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.background .text .btn2 {
+    transition: all 1s;
+    background-color: transparent;
+}
+
+.background .text .btn2:hover {
+    background-color: white;
+    color: black;
+}
+
+.sheap {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    animation: moveDot 2s infinite;
+}
+
+@keyframes moveDot {
+    0% {
+        top: 5px;
+        opacity: 1;
+    }
+    50% {
+        top: 35px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 5px;
+        opacity: 1;
+    }
+}
+
+.navbar {
+    transition: all 0.4s ease-in-out;
+    padding: 15px 50px;
+}
+
+.navbar.transparent {
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.transparent .nav-link {
+    color: white !important;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar.transparent .nav-link:hover {
+    color: #8B4513 !important;
+}
+
+.navbar.scrolled {
+    background: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 50px;
+}
+
+.navbar.scrolled .nav-link {
+    color: black !important;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.paragraph {
+    margin-left: 2.875rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section2 ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #c29b64;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon-circle i {
+    font-size: 18px;
+    color: #c29b64;
+}
+
+.paragraph h2 {
+    font-family: 'Alegreya';
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.artical li,
+.artical p {
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.logo2 img {
+    width: 80%;
+}
+
+.page3 {
+    background-color: #F8F8F8;
+    padding: 3rem;
+}
+
+.text3 {
+    text-align: left;
+}
+
+.logo3 img {
+    width: 100%;
+}
+
+.text3 h2 {
+    font-family: 'Alegreya';
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.page4 {
+    padding: 3rem;
+}
+
+h3 {
+    font-family: 'Alegreya';
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo4 img {
+    width: 100%;
+}
+
+#map {
+    background-color: #F8F8F8;
+}
+
+.page5 {
+    width: 80%;
+    padding-block: 3rem;
+    margin: auto;
+}
+
+.text5 h2 {
+    font-family: Alegreya;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.icon-circle1 {
+    background-color: #8b6c43;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.page6 {
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.page6-1 {
+    background-color: #2d2a27;
+}
+
+.page6 h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.page6 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page6 ul li {
+    margin-bottom: 10px;
+}
+
+.page6 ul li i {
+    margin-right: 8px;
+    color: #cda45e;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer {
+    background-color: #353330;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-logo img {
+    max-width: 380px;
+}
+
+.footer p {
+    color: #bbb;
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #2a2825;
+    color: #6b5b5b;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+#facebook:hover {
+    background-color: #1877f2;
+}
+
+#google:hover {
+    background-color: #db4437;
+}
+
+#linkedin:hover {
+    background-color: #0a66c2;
+}
+
+#twitter:hover {
+    background-color: #1da1f2;
+}
+
+#in:hover i {
+    color: dodgerblue;
+}
+

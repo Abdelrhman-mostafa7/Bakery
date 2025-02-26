@@ -1,0 +1,50 @@
+@media (max-width: 640px) {
+    p{
+        font-size: 20px;
+    }
+    .navbar.transparent {
+        background: white !important;
+    }
+
+    .navbar.transparent .nav-link {
+        color: rgba(0, 0, 0, 0.534) !important;
+    }
+
+    .background {
+        margin: 0;
+    }
+
+    .background .text h1 {
+        font-size: 30px;
+        line-height: 2.6875rem;
+        margin: 0;
+    }
+
+    .background .text p {
+        font-size: 15px;
+        line-height: 1.8125rem;
+    }
+
+    .background .text button {
+        padding: .75rem;
+        border: none;
+        color: white;
+        background-color: rgb(95, 76, 50);
+        border-radius: .625rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    p{
+        font-size: 18px;
+    }
+    .page6-1 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {}
+
+@media (min-width: 1280px) and (max-width: 1536px) {}
+
+@media (min-width: 1536px) {}
